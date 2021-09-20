@@ -1,0 +1,14 @@
+Semantic
+
+    - head
+    - body
+    - header 
+    - footer
+    - article
+
+non-Semantic elements 
+
+
+    - div 
+
+

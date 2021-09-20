@@ -1,0 +1,28 @@
+p {
+    /* padding: 10px; 
+   border-style: double;  
+   border-color: #064fad; 
+   border-width: 20px; */
+    background-color: blue; 
+    color: white; 
+    border: 1px solid red;
+    /* margin: 25px 25px;   */
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/* h2 {
+    color: green; 
+}
+
+li {
+    color: green; 
+} */
+
+.fontColourGreen {
+    color: green; 
+    font-size: 25px;
+    background-color: yellow; 
+}
