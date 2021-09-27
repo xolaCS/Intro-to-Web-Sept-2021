@@ -6,9 +6,7 @@ Semantic
     - footer
     - article
 
-non-Semantic elements 
-
-
+Non-Semantic elements 
     - div 
 
 
