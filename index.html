@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Intro to Web</title>
 
-        <link rel="stylesheet" href="./static/myStyles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Web</title>
 
-    <body>
+    <link rel="stylesheet" href="./static/css/myStyles.css">
+</head>
 
-        <h1>Class List</h1>
+<body>
 
-        <!-- <ul>
-            <li>1. Caitlin</li>
-            <li>3. Cody</li>
-            <li>2. Stratton</li>
-        </ul> -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#heading">Heading</a>
+            </li>
+
+            <li>
+                <a href="#codeExample">Code example</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+
+        <header id="heading">
+            <h1>Welcome to the Class List Webpage</h1>
+        </header>
+
+        <section>
+            <img src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/primary-logo-full-colour-a.svg" alt="white classroom with students in session">
+        </section>
+        
 
         <ol>
             <li class="blueBackground">Caitlin</li>
@@ -25,7 +40,7 @@
             <li>Stratton</li>
         </ol>
 
-        <h1 id="phasesHeading" >Phases of a <span style="color:red">web</span> project</h1>
+        <h1 id="phasesHeading">Phases of a <span style="color:red">web</span> project</h1>
 
         <ol class="blueBackground">
             <li>Plan</li>
@@ -33,12 +48,11 @@
             <li>Development</li>
             <li>Deployment</li>
             <li>Maintain</li>
-
         </ol>
 
-        <hr> 
+        <hr>
 
-        <pre class="blueBackground">
+        <pre id="codeExample" class="blueBackground">
             I went through
                     a lot of code 
                         today
@@ -47,7 +61,21 @@
         <!-- <p>1. Caitlin</p>
         <p>3. Cody</p>
         <p>2. Stratton</p> -->
-   
 
-    </body>
+        <a href="http://codespace.co.za/">
+            CodeSpace Academy
+        </a>
+
+        <br>
+
+        <a href="#heading">
+            Back to Top
+        </a>
+
+    </main>
+
+
+
+</body>
+
 </html>
