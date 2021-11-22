@@ -1,6 +1,11 @@
 /* h1 {
                 font-size: 50px;
             } */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .blueBackground {
 	background-color: blue !important;
 }
@@ -10,7 +15,7 @@
 }
 
 img {
-	width: 80vw; 
+	width: clamp(300px, 80vw, 600px);
 	height: auto;
 	margin: auto;
 }
