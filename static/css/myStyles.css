@@ -4,25 +4,34 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #E9E3E6;
 }
 
-main {
-	width: 100%;
+#container {
+	width: 90%;
+	margin: 15px;
+	padding: 8px;
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	/* box-shadow: 2px 2px 2px 2px #E9E3E6; */
+	background-color: white;
 }
 
 /* These are the first rules to be read and have the least priority */
 
-.blueBackground {
-	background-color: yellow;
-}
+
+
+
 
 #heading {
-	border: 3px solid green;
+	/* border: 3px solid green;
 	border-radius: 25px;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 50px;
-	padding-bottom: 75px;
+	padding-bottom: 75px; */
 	margin: auto;
 	width: 85%;
 	height: auto;
@@ -31,13 +40,10 @@ main {
 .blueBackground {
 	background-color: blue !important;
 }
-#phasesHeading {
-	font-size: 50px;
-	background-color: #333;
-}
+
 
 img {
-	width: clamp(300px, 80vw, 600px);
+	width: clamp(300px, 75vw, 600px);
 	height: auto;
 	margin: auto;
 }
