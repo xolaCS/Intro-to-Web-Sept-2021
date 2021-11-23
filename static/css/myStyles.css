@@ -6,6 +6,28 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+main {
+	width: 100%;
+}
+
+/* These are the first rules to be read and have the least priority */
+
+.blueBackground {
+	background-color: yellow;
+}
+
+#heading {
+	border: 3px solid green;
+	border-radius: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 50px;
+	padding-bottom: 75px;
+	margin: auto;
+	width: 85%;
+	height: auto;
+}
+
 .blueBackground {
 	background-color: blue !important;
 }
